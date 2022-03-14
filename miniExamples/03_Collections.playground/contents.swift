@@ -2,21 +2,18 @@ import UIKit
 
 // Basics for arrays
 var names = ["Dave", "Kristy", "McKinley", "Keegan", "Bowen", "Neala"]
-
-
-
-
-
-
-
-
-
+names[0]
+names[1] = "Meltry"
 
 // Appending values
-
-
-
-
+names.append("Atlus")
+names.append("NAME")
+if names.contains("Dave"){
+    print("contain Dave")
+}
+names += ["Bob", "Alice"]
+names.isEmpty //boolean
+//names.removeAll()
 
 
 
